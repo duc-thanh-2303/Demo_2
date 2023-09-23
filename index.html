@@ -1,90 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./Images/logo.png" />
     <!--========== BOX ICONS ==========-->
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet" />
 
     <!--========= FONT-AWESOME ========-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
     <!--========== CSS ==========-->
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
-</head>
-<body>
-        <!-- SCROLL UP -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Premium Shop</title>
+  </head>
+  <body>
+    <!-- SCROLL UP -->
     <a href="#" class="scrolltop" id="scroll-top">
-        <i class="bx bx-chevron-up scrolltop_icon"></i>
+      <i class="bx bx-chevron-up scrolltop_icon"></i>
     </a>
-
 
     <!--======== HEADER ==========-->
     <header class="l-header" id="header">
-        <nav class="nav bd-container">
-            <a href="#" class="nav_logo">Nike</a>
+      <nav class="nav bd-container">
+        <a href="#" class="nav_logo">Whisky</a>
 
-            <div class="nav_menu" id="nav-menu">
-                <ul class="nav_list">
-                    <li class="nav_item"><a href="#home" class="nav_link active-link">Home</a></li>
-                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
-                    <li class="nav_item"><a href="#services" class="nav_link">Services</a></li>
-                    <li class="nav_item"><a href="#menu" class="nav_link">Menu</a></li>
-                    <li class="nav_item"><a href="#contact" class="nav_link">Contact Us</a></li>
-                </ul>
-            </div>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link active-link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">About</a>
+            </li>
+            <li class="nav_item">
+              <a href="#services" class="nav_link">Services</a>
+            </li>
+            <li class="nav_item"><a href="#menu" class="nav_link">Menu</a></li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
 
-            <div class="nav_toggle" id="nav-toggle">
-                <i class="bx bx-menu"></i>
-            </div>
-        </nav>
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
     </header>
 
     <main class="l-main">
-        <!--========= HOME ==========-->
-        <section class="home" id="home">
-            <div class="home_container bd-container bd-grid">
-                <div class="home_data">
-                    <h1 class="home_title">Always Dripping</h1>
-                    <h2 class="home_subtitle">Never Slow Down<br> With Nike</h2>
-                    <a href="#" class="button">View Shop</a>
-                </div>
+      <!--========= HOME ==========-->
+      <!-- <section class="home" id="home">
+        <div class="home_container bd-container bd-grid">
+          <div class="home_data">
+            <h1 class="home_title">Always Dripping</h1>
+            <h2 class="home_subtitle">
+              Never Slow Down<br />
+              With Nike
+            </h2>
+            <a href="#" class="button">View Shop</a>
+          </div>
 
-                <img src="Images/shoe1.png" alt="" class="home_img">
-            </div>
-        </section>
+          <img src="Images/shoe1.png" alt="" class="home_img" />
+        </div>
+      </section> -->
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/bg-1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/bg-2.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/bg-3.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+      </div>
 
-        <!--=========== ABOUT =============-->
-        <section class="about section bd-container" id="about">
-            <div class="about_container bd-grid">
-                <div class="about_data">
-                    <span class="section-subtitle about_initial">About US</span>
-                    <h2 class="section-title about_intial">Always Look Fresh <br> With Nike</h2>
-                    <p class="about_description">Things are better as a Nike Member.
-                        Be the first to get exclusive access to the newest styles and innovation, free shipping, birthday rewards and more.
-                    </p>
-                    <a href="#" class="button">Read More</a>
-                </div>
+      <!--=========== ABOUT =============-->
+      <section class="about section bd-container" id="about">
+        <div class="about_container bd-grid">
+          <div class="about_data">
+            <span class="section-subtitle about_initial">About US</span>
+            <h2 class="section-title about_intial">
+              Always Appear With Freshness <br />
+              Along With Foreign Wine Products
+            </h2>
+            <p class="about_description">
+              Everything will be better when you become our member. Be the first
+              person to have the opportunity to exclusively access the latest
+              products and creativity, along with incentives such as free
+              shipping, birthday gifts and many other rewards.
+            </p>
+            <a href="#" class="button">Read More</a>
+          </div>
 
-                <img src="Images/shoe10.png" alt="" class="about_img">
-            </div>
-        </section>
+          <img
+            src="./Images/kisspng-grain-whisky-beer-distilled-beverage-wine-wineglass-5a7082cf3b7e57.0846800715173229592437.png"
+            alt=""
+            class="about_img" />
+        </div>
+      </section>
 
-        <!--============= SERVICES ==============-->
-        <section class="services section bd-container" id="services">
-            <span class="section-subtitle">Offering</span>
-            <h2 class="section-title">Our amazing services</h2>
+      <!--============= SERVICES ==============-->
+      <section class="services section bd-container" id="services">
+        <span class="section-subtitle">Offering</span>
+        <h2 class="section-title">Our amazing services</h2>
 
-            <div class="services_container bd-grid">
-                <div class="services_content">
-                    <svg class="services_img" version="1.0" xmlns="http://www.w3.org/2000/svg"
-                    width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
-                    preserveAspectRatio="xMidYMid meet">
-                   
-                   <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-                   fill="#000000" stroke="none">
-                   <path d="M3490 5107 c-102 -28 -189 -120 -210 -222 -7 -35 -10 -175 -8 -407 3
+        <div class="services_container bd-grid">
+          <div class="services_content">
+            <svg
+              class="services_img"
+              version="1.0"
+              xmlns="http://www.w3.org/2000/svg"
+              width="512.000000pt"
+              height="512.000000pt"
+              viewBox="0 0 512.000000 512.000000"
+              preserveAspectRatio="xMidYMid meet">
+              <g
+                transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                fill="#000000"
+                stroke="none">
+                <path
+                  d="M3490 5107 c-102 -28 -189 -120 -210 -222 -7 -35 -10 -175 -8 -407 3
                    -334 4 -355 24 -399 46 -99 137 -166 241 -176 83 -9 83 -10 83 -263 0 -151 4
                    -222 13 -239 32 -63 119 -85 174 -45 16 11 92 126 174 263 81 133 155 251 164
                    261 17 19 33 20 370 20 420 0 428 1 515 88 71 73 90 126 90 262 0 83 -3 101
@@ -94,8 +146,9 @@
                    -96 24 -123 61 l-24 34 -3 348 c-3 333 -2 351 17 391 11 23 35 50 53 61 32 19
                    56 20 693 23 l660 2 44 -22 c65 -34 81 -70 81 -191 0 -110 6 -129 49 -146 24
                    -10 34 -10 60 3 39 21 44 42 39 178 -3 92 -8 121 -26 155 -34 66 -78 110 -140
-                   140 l-57 28 -680 2 c-513 1 -691 -1 -725 -10z"/>
-                   <path d="M1544 4829 c-152 -18 -298 -91 -415 -208 -85 -85 -138 -172 -177
+                   140 l-57 28 -680 2 c-513 1 -691 -1 -725 -10z" />
+                <path
+                  d="M1544 4829 c-152 -18 -298 -91 -415 -208 -85 -85 -138 -172 -177
                    -289 -24 -72 -26 -93 -30 -312 l-5 -235 -40 -30 c-23 -17 -52 -52 -66 -80 -25
                    -47 -26 -59 -29 -227 -4 -202 6 -257 59 -321 47 -57 100 -80 196 -85 l81 -4
                    22 -93 c47 -205 168 -385 338 -504 l32 -22 0 -134 c0 -129 -1 -135 -26 -164
@@ -149,29 +202,41 @@
                    19 67 19 195 l1 155 36 -40 c19 -22 50 -69 67 -105z m1377 -132 c51 -138 69
                    -257 69 -445 l0 -168 -90 3 -90 3 0 37 c0 59 30 611 36 672 l6 55 21 -40 c11
                    -22 33 -75 48 -117z m103 -787 c36 -34 36 -88 0 -122 l-26 -24 -1805 0 -1805
-                   0 -24 28 c-26 30 -31 66 -13 98 27 50 -53 48 1861 46 l1786 -2 26 -24z"/>
-                   <path d="M3653 4740 c-46 -19 -57 -83 -20 -118 19 -18 35 -22 91 -22 58 0 70
-                   3 91 25 14 13 25 31 25 39 0 28 -22 64 -47 75 -28 13 -109 14 -140 1z"/>
-                   <path d="M4023 4740 c-45 -18 -55 -72 -22 -114 l20 -26 360 0 c346 0 360 1
-                   379 20 30 30 27 83 -6 109 -26 20 -37 21 -368 20 -187 0 -351 -4 -363 -9z"/>
-                   <path d="M3654 4386 c-48 -21 -60 -80 -24 -116 20 -20 33 -20 569 -20 l550 0
-                   15 22 c23 32 20 81 -5 104 -20 18 -46 19 -548 21 -427 2 -532 0 -557 -11z"/>
-                   </g>
-                   </svg>  
-                   
-                   <h3 class="services_title">Excellent Customer Support</h3>
-                   <p class="services_description">We offer our clients excellent customer services, your satisfaction is our priority</p>
+                   0 -24 28 c-26 30 -31 66 -13 98 27 50 -53 48 1861 46 l1786 -2 26 -24z" />
+                <path
+                  d="M3653 4740 c-46 -19 -57 -83 -20 -118 19 -18 35 -22 91 -22 58 0 70
+                   3 91 25 14 13 25 31 25 39 0 28 -22 64 -47 75 -28 13 -109 14 -140 1z" />
+                <path
+                  d="M4023 4740 c-45 -18 -55 -72 -22 -114 l20 -26 360 0 c346 0 360 1
+                   379 20 30 30 27 83 -6 109 -26 20 -37 21 -368 20 -187 0 -351 -4 -363 -9z" />
+                <path
+                  d="M3654 4386 c-48 -21 -60 -80 -24 -116 20 -20 33 -20 569 -20 l550 0
+                   15 22 c23 32 20 81 -5 104 -20 18 -46 19 -548 21 -427 2 -532 0 -557 -11z" />
+              </g>
+            </svg>
 
-                </div>
+            <h3 class="services_title">Excellent Customer Support</h3>
+            <p class="services_description">
+              We offer our clients excellent customer services, your
+              satisfaction is our priority
+            </p>
+          </div>
 
-                <div class="services_content">
-                    <svg class="services_img" version="1.0" xmlns="http://www.w3.org/2000/svg"
-                    width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
-                    preserveAspectRatio="xMidYMid meet">
-
-                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-                    fill="#000000" stroke="none">
-                    <path d="M1284 4449 c-25 -13 -5 18 -474 -734 -216 -346 -393 -631 -394 -632
+          <div class="services_content">
+            <svg
+              class="services_img"
+              version="1.0"
+              xmlns="http://www.w3.org/2000/svg"
+              width="512.000000pt"
+              height="512.000000pt"
+              viewBox="0 0 512.000000 512.000000"
+              preserveAspectRatio="xMidYMid meet">
+              <g
+                transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                fill="#000000"
+                stroke="none">
+                <path
+                  d="M1284 4449 c-25 -13 -5 18 -474 -734 -216 -346 -393 -631 -394 -632
                     -1 -1 -20 3 -43 10 -34 9 -45 8 -66 -6 -29 -19 -296 -513 -304 -563 -4 -23 1
                     -37 18 -57 14 -15 734 -421 1624 -914 l1600 -888 660 -3 c410 -2 692 1 745 8
                     225 27 420 207 459 424 6 33 11 182 11 335 0 219 -3 288 -16 340 -48 194 -195
@@ -200,42 +265,51 @@
                     -59 -4 -33 36 -774 1007 -774 1015 1 7 193 154 196 150 1 -1 156 -258 343
                     -570z m-1459 -748 l1465 -844 809 -3 809 -2 -6 -46 c-11 -101 -92 -215 -187
                     -264 -74 -38 -123 -40 -797 -40 l-656 0 -1536 851 c-845 468 -1540 855 -1544
-                    859 -8 7 164 341 173 335 3 -1 664 -382 1470 -846z"/>
-                    <path d="M29 1871 c-32 -33 -36 -58 -14 -100 23 -45 57 -51 297 -51 252 0 278
+                    859 -8 7 164 341 173 335 3 -1 664 -382 1470 -846z" />
+                <path
+                  d="M29 1871 c-32 -33 -36 -58 -14 -100 23 -45 57 -51 297 -51 252 0 278
                     6 297 63 10 30 9 41 -4 67 -9 17 -27 35 -41 40 -14 6 -133 10 -265 10 l-241 0
-                    -29 -29z"/>
-                    <path d="M29 1341 c-33 -33 -36 -58 -14 -101 10 -20 28 -33 53 -40 25 -8 218
+                    -29 -29z" />
+                <path
+                  d="M29 1341 c-33 -33 -36 -58 -14 -101 10 -20 28 -33 53 -40 25 -8 218
                     -10 619 -8 l581 3 26 24 c29 27 35 83 13 112 -29 38 -40 39 -652 39 l-597 0
-                    -29 -29z"/>
-                    <path d="M29 811 c-33 -33 -36 -58 -14 -101 10 -20 28 -33 53 -40 26 -8 357
+                    -29 -29z" />
+                <path
+                  d="M29 811 c-33 -33 -36 -58 -14 -101 10 -20 28 -33 53 -40 26 -8 357
                     -10 1104 -8 l1066 3 26 24 c36 34 36 93 0 126 l-27 25 -1089 0 -1090 0 -29
-                    -29z"/>
-                    </g>
-                    </svg>
-                    <h3 class="services_title">Latest Shoes</h3>
-                    <p class="services_desscription">We provide our clients the the best and latest nike shoes. Always look fresh with nike.</p>
-                </div>
+                    -29z" />
+              </g>
+            </svg>
+            <h3 class="services_title">Latest Shoes</h3>
+            <p class="services_desscription">
+              We provide our clients the the best and latest nike shoes. Always
+              look fresh with nike.
+            </p>
+          </div>
 
-                <div class="services_content">
-                    <svg class="services_img" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0)">
-                        <path d="M19.1978 49.6016C17.4308 49.6016 15.9981 51.0342 15.9981 52.8012C15.9981 54.5682 17.4308 
+          <div class="services_content">
+            <svg class="services_img" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+                <path
+                  d="M19.1978 49.6016C17.4308 49.6016 15.9981 51.0342 15.9981 52.8012C15.9981 54.5682 17.4308 
                         56.0008 19.1978 56.0008C20.9648 56.0008 22.3974 54.5682 22.3974 52.8012C22.3974 51.0342 20.9648 
                         49.6016 19.1978 49.6016ZM19.1978 53.8677C18.6088 53.8677 18.1312 53.3902 18.1312 52.8012C18.1312 
                         52.2122 18.6088 51.7347 19.1978 51.7347C19.7868 51.7347 20.2643 52.2122 20.2643 52.8012C20.2643 
-                        53.3902 19.7868 53.8677 19.1978 53.8677Z"/>
-                        <path d="M50.1275 49.6016C48.3605 49.6016 46.9279 51.0342 46.9279 52.8012C46.9279 54.5682 48.3605 
+                        53.3902 19.7868 53.8677 19.1978 53.8677Z" />
+                <path
+                  d="M50.1275 49.6016C48.3605 49.6016 46.9279 51.0342 46.9279 52.8012C46.9279 54.5682 48.3605 
                         56.0008 50.1275 56.0008C51.8945 56.0008 53.3271 54.5682 53.3271 52.8012C53.3271 51.0342 51.8945 
                         49.6016 50.1275 49.6016ZM50.1275 53.8677C49.5385 53.8677 49.0609 53.3902 49.0609 52.8012C49.0609 
                         52.2122 49.5385 51.7347 50.1275 51.7347C50.7165 51.7347 51.194 52.2122 51.194 52.8012C51.194 
-                        53.3902 50.7165 53.8677 50.1275 53.8677Z"/>
-                        <path d="M3.19962 21.8715H5.3327V24.0045H3.19962V21.8715Z"/>
-                        <path d="M0 26.1377H2.13308V28.2708H0V26.1377Z"/>
-                        <path d="M52.2606 11.2061H58.6598V13.3391H52.2606V11.2061Z"/>
-                        <path d="M47.9944 11.2061H50.1275V13.3391H47.9944V11.2061Z"/>
-                        <path d="M34.1294 4.80676H44.7948V6.93985H34.1294V4.80676Z"/>
-                        <path d="M29.8632 4.80676H31.9963V6.93985H29.8632V4.80676Z"/>
-                        <path d="M63.9925 59.2005V57.0674H54.8842C55.7935 56.0607 56.3575 54.7906 56.495 53.4412L63.4593 
+                        53.3902 50.7165 53.8677 50.1275 53.8677Z" />
+                <path d="M3.19962 21.8715H5.3327V24.0045H3.19962V21.8715Z" />
+                <path d="M0 26.1377H2.13308V28.2708H0V26.1377Z" />
+                <path d="M52.2606 11.2061H58.6598V13.3391H52.2606V11.2061Z" />
+                <path d="M47.9944 11.2061H50.1275V13.3391H47.9944V11.2061Z" />
+                <path d="M34.1294 4.80676H44.7948V6.93985H34.1294V4.80676Z" />
+                <path d="M29.8632 4.80676H31.9963V6.93985H29.8632V4.80676Z" />
+                <path
+                  d="M63.9925 59.2005V57.0674H54.8842C55.7935 56.0607 56.3575 54.7906 56.495 53.4412L63.4593 
                         49.461C63.5087 49.4266 63.5556 49.3886 63.5988 49.3469C63.6363 49.3214 63.6723 49.2928 63.7056 
                         49.2626C63.7858 49.1777 63.8514 49.0798 63.8998 48.9735C63.905 48.9636 63.9123 48.9574 63.917 
                         48.948C63.9655 48.8272 63.9915 48.6986 63.9936 48.5684C63.9936 48.5564 63.9998 48.547 63.9998 
@@ -260,126 +334,285 @@
                         13.3402 36.9993 13.4527 37.1998 13.6516L44.4823 20.9341C44.6828 21.1341 44.7948 21.4059 44.7948 21.6892V37.8696H11.732V28.2707ZM13.6646 
                         49.6016C13.4766 49.9255 13.3177 50.2661 13.1901 50.6181L12.1736 49.6016H13.6646ZM14.9316 
                         52.8012C14.9316 50.4452 16.8418 48.535 19.1978 48.535C21.5537 48.535 23.4639 50.4452 23.4639 
-                        52.8012C23.4639 55.1572 21.5537 57.0674 19.1978 57.0674C16.8418 57.0674 14.9316 55.1572 14.9316 52.8012Z"/>
-                            </g>
-                            <defs>
-                            <clipPath id="clip0">
-                            <rect width="64" height="64" fill="white"/>
-                            </clipPath>
-                            </defs>
-                    </svg>
-                    <h3 class="services_title">Fast Delivery</h3>
-                    <p class="services_description">We offer our clients excellent quality services for many years, with the best and latest shoes on the plant</p>
-                </div>
+                        52.8012C23.4639 55.1572 21.5537 57.0674 19.1978 57.0674C16.8418 57.0674 14.9316 55.1572 14.9316 52.8012Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="64" height="64" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <h3 class="services_title">Fast Delivery</h3>
+            <p class="services_description">
+              We offer our clients excellent quality services for many years,
+              with the best and latest shoes on the plant
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--=========== MENU =============-->
+      <section class="menu section bd-container" id="menu">
+        <span class="section-subtitle">Special Offers</span>
+        <h2 class="section-title">Best Sellers</h2>
+
+        <div class="menu_container bd-grid">
+          <div class="menu_content">
+            <div class="menu_img">
+              <img src="./Images/gin.png" alt="" />
             </div>
-        </section>
-
-        <!--=========== MENU =============-->
-        <section class="menu section bd-container" id="menu">
-            <span class="section-subtitle">Special Offers</span>
-            <h2 class="section-title">Best Sellers</h2>
-
-            <div class="menu_container bd-grid">
-                <div class="menu_content">
-                    <img src="Images/shoe11.png" alt="" class="menu_img">
-                    <h3 class="menu_name">Nike Air Force</h3>
-                    <span class="menu_detail">2020 Edition</span>
-                    <span class="menu_price">Rp. 120.00</span>
-                    <a href="#" class="button menu_button"><i class="bx bx-cart-alt"></i></a>
-                </div>
-                <div class="menu_content">
-                    <img src="Images/shoe7.png" alt="" class="menu_img">
-                    <h3 class="menu_name">Nike Air Force</h3>
-                    <span class="menu_detail">2020 Edition</span>
-                    <span class="menu_price">Rp. 120.00</span>
-                    <a href="#" class="button menu_button"><i class="bx bx-cart-alt"></i></a>
-                </div>
-                <div class="menu_content">
-                    <img src="Images/shoe9.png" alt="" class="menu_img">
-                    <h3 class="menu_name">Nike Air Force</h3>
-                    <span class="menu_detail">2020 Edition</span>
-                    <span class="menu_price">Rp. 120.00</span>
-                    <a href="#" class="button menu_button"><i class="bx bx-cart-alt"></i></a>
-                </div>
+            <h3 class="menu_name">Gin</h3>
+            <span class="menu_detail">2020 Edition</span>
+            <span class="menu_price">Rp. 120.00</span>
+            <a href="#" class="button menu_button"
+              ><ion-icon name="information-circle-outline"></ion-icon
+            ></a>
+          </div>
+          <div class="menu_content">
+            <div class="menu_img">
+              <img src="./Images/whisky.png" alt="" />
             </div>
-        </section>
 
-        <!--=========== APP ==========-->
-        <section class="app section bd-container">
-            <div class="app_container bd-grid">
-                <div class="app_data">
-                    <span class="section-subtitle app_initial">APP</span>
-                    <h2 class="section-title app_initial">App is available</h2>
-                    <p class="app_description">Find our application and download it, you can make youe orders online, subscribe to our newsletter, track your orders and much more</p>
-                    <div class="app_stores">
-                        <a href="#"><img src="Images/app1.png" alt="" class="app_store"></a>
-                        <a href="#"><img src="Images/app2.png" alt="" class="app_store"></a>
-                    </div>
-                </div>
+            <h3 class="menu_name">Whisky</h3>
+            <span class="menu_detail">2020 Edition</span>
+            <span class="menu_price">Rp. 120.00</span>
+            <a href="#" class="button menu_button"
+              ><ion-icon name="information-circle-outline"></ion-icon
+            ></a>
+          </div>
+          <div class="menu_content">
+            <img src="./Images/Champagne.png" alt="" class="menu_img" />
+            <h3 class="menu_name">Champagne</h3>
+            <span class="menu_detail">2020 Edition</span>
+            <span class="menu_price">Rp. 120.00</span>
+            <a href="#" class="button menu_button"
+              ><ion-icon name="information-circle-outline"></ion-icon
+            ></a>
+          </div>
 
-                <img src="Images/app.png" alt="" class="app_img">
+          <div class="menu_content">
+            <img src="./Images/Bordeaux.png" alt="" class="menu_img" />
+            <h3 class="menu_name">Bordeaux</h3>
+            <span class="menu_detail">2020 Edition</span>
+            <span class="menu_price">Rp. 120.00</span>
+            <a href="#" class="button menu_button"
+              ><ion-icon name="information-circle-outline"></ion-icon
+            ></a>
+          </div>
+          <div class="menu_content">
+            <div class="menu_img">
+              <img src="./Images/Chardonnay.png" alt="" />
             </div>
-        </section>
-
-        <!--========= CONTACT =========-->
-        <section class="contact section bd-container" id="contact">
-            <div class="contact_container bd-grid">
-                <div class="contact_data">
-                    <span class="section-subtitle contact_initial">Let's talk</span>
-                    <h2 class="section-title contact_initial">Contact Us</h2>
-                    <p class="contact_description">If you want to reserve a show, place preorders, contact us and we will attend to you as soon as possible</p>
-                </div>
-
-                <div class="contact_button">
-                    <a href="#" class="button">Contact us now</a>
-                </div>
+            <h3 class="menu_name">Chardonnay</h3>
+            <span class="menu_detail">2020 Edition</span>
+            <span class="menu_price">Rp. 120.00</span>
+            <a href="#" class="button menu_button"
+              ><ion-icon name="information-circle-outline"></ion-icon
+            ></a>
+          </div>
+          <div class="menu_content">
+            <div class="menu_img">
+              <img src="./Images/Malvasia.png" alt="" />
             </div>
-        </section>
+            <h3 class="menu_name">Malvasia</h3>
+            <span class="menu_detail">2020 Edition</span>
+            <span class="menu_price">Rp. 120.00</span>
+            <a href="#" class="button menu_button"
+              ><ion-icon name="information-circle-outline"></ion-icon
+            ></a>
+          </div>
+
+          <div class="menu_content">
+            <img src="./Images/Merlot.png" alt="" class="menu_img" />
+            <h3 class="menu_name">Merlot</h3>
+            <span class="menu_detail">2020 Edition</span>
+            <span class="menu_price">Rp. 120.00</span>
+            <a href="#" class="button menu_button"
+              ><ion-icon name="information-circle-outline"></ion-icon
+            ></a>
+          </div>
+          <div class="menu_content">
+            <img src="./Images/Moscato.png" alt="" class="menu_img" />
+            <h3 class="menu_name">Moscato</h3>
+            <span class="menu_detail">2020 Edition</span>
+            <span class="menu_price">Rp. 120.00</span>
+            <a href="#" class="button menu_button"
+              ><ion-icon name="information-circle-outline"></ion-icon
+            ></a>
+          </div>
+          <div class="menu_content">
+            <div class="menu_img">
+              <img src="./Images/Riesling.png" alt="" />
+            </div>
+            <h3 class="menu_name">Riesling</h3>
+            <span class="menu_detail">2020 Edition</span>
+            <span class="menu_price">Rp. 120.00</span>
+            <a href="#" class="button menu_button"
+              ><ion-icon name="information-circle-outline"></ion-icon
+            ></a>
+          </div>
+
+          <div class="menu_content">
+            <div class="menu_img">
+              <img src="./Images/Sangiovese.png" alt="" />
+            </div>
+            <h3 class="menu_name">Sangiovese</h3>
+            <span class="menu_detail">2020 Edition</span>
+            <span class="menu_price">Rp. 120.00</span>
+            <a href="#" class="button menu_button"
+              ><ion-icon name="information-circle-outline"></ion-icon
+            ></a>
+          </div>
+          <div class="menu_content">
+            <div class="menu_img">
+              <img src="./Images/Sauternes.png" alt="" />
+            </div>
+            <h3 class="menu_name">Sauternes</h3>
+            <span class="menu_detail">2020 Edition</span>
+            <span class="menu_price">Rp. 120.00</span>
+            <a href="#" class="button menu_button"
+              ><ion-icon name="information-circle-outline"></ion-icon
+            ></a>
+          </div>
+          <div class="menu_content">
+            <div class="menu_img">
+              <img src="./Images/Shiraz.png" alt="" />
+            </div>
+            <h3 class="menu_name">Shiraz</h3>
+            <span class="menu_detail">2020 Edition</span>
+            <span class="menu_price">Rp. 120.00</span>
+            <a href="#" class="button menu_button"
+              ><ion-icon name="information-circle-outline"></ion-icon
+            ></a>
+          </div>
+
+          <div class="menu_content">
+            <div class="menu_img">
+              <img src="./Images/Vermentino.png" alt="" />
+            </div>
+            <h3 class="menu_name">Vermentino</h3>
+            <span class="menu_detail">2020 Edition</span>
+            <span class="menu_price">Rp. 120.00</span>
+            <a href="#" class="button menu_button"
+              ><ion-icon name="information-circle-outline"></ion-icon
+            ></a>
+          </div>
+          <div class="menu_content">
+            <div class="menu_img">
+              <img src="./Images/Viognier.png" alt="" />
+            </div>
+            <h3 class="menu_name">Viognier</h3>
+            <span class="menu_detail">2020 Edition</span>
+            <span class="menu_price">Rp. 120.00</span>
+            <a href="#" class="button menu_button"
+              ><ion-icon name="information-circle-outline"></ion-icon
+            ></a>
+          </div>
+          <div class="menu_content">
+            <div class="menu_img">
+              <img src="./Images/whisky.png" alt="" />
+            </div>
+            <h3 class="menu_name">Whisky</h3>
+            <span class="menu_detail">2020 Edition</span>
+            <span class="menu_price">Rp. 120.00</span>
+            <a href="#" class="button menu_button"
+              ><ion-icon name="information-circle-outline"></ion-icon
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!--=========== APP ==========-->
+      <!-- <section class="app section bd-container">
+        <div class="app_container bd-grid">
+          <div class="app_data">
+            <span class="section-subtitle app_initial">APP</span>
+            <h2 class="section-title app_initial">App is available</h2>
+            <p class="app_description">
+              Find our application and download it, you can make youe orders
+              online, subscribe to our newsletter, track your orders and much
+              more
+            </p>
+            <div class="app_stores">
+              <a href="#"
+                ><img src="Images/app1.png" alt="" class="app_store"
+              /></a>
+              <a href="#"
+                ><img src="Images/app2.png" alt="" class="app_store"
+              /></a>
+            </div>
+          </div>
+
+          <img src="Images/app.png" alt="" class="app_img" />
+        </div>
+      </section> -->
+
+      <!--========= CONTACT =========-->
+      <section class="contact section bd-container" id="contact">
+        <div class="contact_container bd-grid">
+          <div class="contact_data">
+            <span class="section-subtitle contact_initial">Let's talk</span>
+            <h2 class="section-title contact_initial">Contact Us</h2>
+            <p class="contact_description">
+              If you want to reserve a show, place preorders, contact us and we
+              will attend to you as soon as possible
+            </p>
+          </div>
+
+          <div class="contact_button">
+            <a href="#" class="button">Contact us now</a>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--=========== FOOTER ==========-->
     <footer class="footer section bd-container">
-        <div class="footer_container bd-grid">
-            <div class="footer-content">
-                <a href="#" class="footer_logo">Nike</a>
-                <span class="footer_description">Nike Store</span>
-                <div>
-                    <a href="#" class="footer_social"><i class="bx bxl-facebook"></i></a>
-                    <a href="#" class="footer_social"><i class="bx bxl-instagram"></i></a>
-                    <a href="#" class="footer_social"><i class="bx bxl-twitter"></i></a>
-                </div>
-            </div>
-
-            <div class="footer_content">
-                <h3 class="footer_title">Services</h3>
-                <ul>
-                    <li><a href="#" class="footer_link">Delivery</a></li>
-                    <li><a href="#" class="footer_link">Pricing</a></li>
-                    <li><a href="#" class="footer_link">Latest Shoes</a></li>
-                    <li><a href="#" class="footer_link">Pre Order Now</a></li>
-                </ul>
-            </div>
-
-            <div class="footer_content">
-                <h3 class="footer_title">Informantion</h3>
-                <ul>
-                    <li><a href="#" class="footer_link">Latest News</a></li>
-                    <li><a href="#" class="footer_link">Contact</a></li>
-                    <li><a href="#" class="footer_link">Privacy policy</a></li>
-                    <li><a href="#" class="footer_link">Terms of services</a></li>
-                </ul>
-            </div>
-
-            <div class="footer_content">
-                <h3 class="footer_title">Address</h3>
-                <ul>
-                    <li>London - Uk</li>
-                    <li>Jr Union #991</li>
-                    <li>+6282136483865</li>
-                    <li>fregiphovide@gmail.com</li>
-                </ul>
-            </div>
+      <div class="footer_container bd-grid">
+        <div class="footer-content">
+          <a href="#" class="footer_logo">Whisky</a>
+          <span class="footer_description">Whisky Store</span>
+          <div>
+            <a href="#" class="footer_social"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="#" class="footer_social"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="#" class="footer_social"><i class="bx bxl-twitter"></i></a>
+          </div>
         </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Services</h3>
+          <ul>
+            <li><a href="#" class="footer_link">Delivery</a></li>
+            <li><a href="#" class="footer_link">Pricing</a></li>
+            <li><a href="#" class="footer_link">Latest Shoes</a></li>
+            <li><a href="#" class="footer_link">Pre Order Now</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Informantion</h3>
+          <ul>
+            <li><a href="#" class="footer_link">Latest News</a></li>
+            <li><a href="#" class="footer_link">Contact</a></li>
+            <li><a href="#" class="footer_link">Privacy policy</a></li>
+            <li><a href="#" class="footer_link">Terms of services</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Address</h3>
+          <ul>
+            <li>London - Uk</li>
+            <li>Jr Union #991</li>
+            <li>+6282136483865</li>
+            <li>fregiphovide@gmail.com</li>
+          </ul>
+        </div>
+      </div>
     </footer>
 
     <!-- SCROLL REVEAL -->
@@ -387,6 +620,20 @@
 
     <!--===== JAVASCRIPT =======-->
     <script src="js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"></script>
 
-</body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
 </html>
